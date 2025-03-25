@@ -1,0 +1,8 @@
+site_name: "track-service-db"
+site_description: "Database for track-service"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

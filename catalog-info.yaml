@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: track-service-db
+  description: "Database for track-service"
+  tags:
+    - gcp
+    - cloud-sql
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: spotify-portal-public-demo/track-service-db
+spec:
+  type: database
+  lifecycle: experimental
+  owner: "group:default/content"
+  system: "system:default/metadata"
